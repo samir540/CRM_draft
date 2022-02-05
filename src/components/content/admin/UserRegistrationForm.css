@@ -1,0 +1,29 @@
+.user-creation-form .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.user-creation-form .ant-form-item-has-error:nth-child(4) input {
+  border-color: #d89597;
+}
+
+.user-creation-form .ant-form-item-explain {
+  color: red;
+}
+
+.PhoneInput input {
+  padding: 4px 11px;
+  border: 1px solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.85);
+  transition: all .3s;
+  border-radius: 2px;
+}
+
+.PhoneInput input::placeholder {
+  color: #c7c7c7;
+}
+
+.PhoneInput input:focus {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+  outline: none;
+}

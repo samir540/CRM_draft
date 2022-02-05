@@ -1,0 +1,43 @@
+.login-page {
+  min-height: 100vh;
+  background: url(../images/bg-blue.png) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrong-credentials {
+  text-align: center;
+  color: #fff;
+}
+
+.login-form {
+  width: 300px;
+}
+
+.login-form .site-form-item-icon {
+  color: #b2bec3;
+}
+
+.login-form .ant-form-item-explain-error {
+  color: #fff;
+}
+
+.login-form .login-form-button {
+  width: 100%;
+}
+
+.login-form .ant-row:nth-child(3) {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.login-form .ant-row:last-child {
+  margin-bottom: 0;
+}
+
+.login-form .ant-row:last-child .ant-form-item-control-input-content {
+  text-align: right;
+}

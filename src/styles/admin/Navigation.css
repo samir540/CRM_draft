@@ -1,0 +1,55 @@
+.admin-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-logo {
+  width: 100%;
+  display: block;
+}
+
+.admin-navigation-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.admin-navigation-list {
+  margin: 0;
+  padding: 0 30px;
+  color: #dbdbdb;
+  list-style: circle;
+}
+
+.admin-navigation-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.admin-navigation-link {
+  color: #dbdbdb;
+  display: block;
+  transition: all .2s;
+}
+
+.admin-navigation-link-active,
+.admin-navigation-link-active:hover,
+.admin-navigation-link:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+  .admin-logo, .admin-navigation-title {
+    display: none;
+  }
+
+  .admin-navigation-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

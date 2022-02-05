@@ -1,0 +1,19 @@
+.deactivate-button {
+  background-color: #f0932b !important;
+  border-color: #f0932b !important;
+}
+
+.deactivate-button:hover {
+  background-color: #ff9d2d !important;
+  border-color: #ff9d2d !important;
+}
+
+.activate-button {
+  background-color: #6ab04c !important;
+  border-color: #6ab04c !important;
+}
+
+.activate-button:hover {
+  background-color: #75be56 !important;
+  border-color: #75be56 !important;
+}

@@ -1,0 +1,43 @@
+.admin-index {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.admin-index-item {
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.admin-index-item:nth-child(8),
+.admin-index-item:nth-child(9),
+.admin-index-item:nth-child(12),
+.admin-index-item:nth-child(14) {
+  grid-column: 1/2;
+}
+
+.admin-index-item-label, .admin-index-item-count {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+
+.admin-index-item-label {
+  font-size: 16px;
+}
+
+.admin-index-item-count {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .admin-index {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .admin-index {
+    grid-template-columns: 1fr;
+  }
+}
